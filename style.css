@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+}
+body{
+    background-color: rgb(222, 135, 221);
+padding-bottom: 50px;
+}
+.form{
+    /* background-color: rgb(255, 0, 157); */
+    /* height: 1000px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    height: 50px;
+    background-color: blueviolet;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.header a{
+    color: black;
+    font-weight: 20px;
+
+}
+.about{
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+form{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.home{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    /* width: 2300px; */
+    border-radius: 10px;
+    padding: 4px;
+margin-right: 10px;
+}
+.home:hover{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    color: blueviolet;    
+    border-radius: 10px;
+    padding: 4px;
+margin-right: 10px;
+}
+.table{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    /* width: 2300px; */
+    border-radius: 10px;
+    padding: 4px;
+
+}
+.table:hover{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    color: blueviolet;    
+    border-radius: 10px;
+    padding: 4px;
+margin-right: 10px;
+}
+.input1{
+height: 30px;
+width: 300px;
+border-radius: 5px;
+padding: 10px;
+}
+.input2{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    /* padding: 10px; */
+ }
+ .input3{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    /* padding: 10px; */
+    background-color: rgb(222, 135, 221);
+    color: black;
+    text-align: center;
+ }
+.button{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.port{
+    text-align: center;
+    padding-top: 5px;
+    color: blueviolet;
+}
+i{
+    color: blueviolet;  
+    font-weight: bold;
+}
+.main_about{
+    padding: 10px;
+}
+.fill{
+    padding: 10px;
+    color: rgb(222, 135, 221);;
+}
+label{
+    color: rgb(222, 135, 221);;
+}
+.goal_header{
+    /* padding: 10px; */
+    color: blueviolet;
+    font-weight: bold;
+}
+.goal{
+    padding: 10px;
+    /* color: blueviolet; */
+    /* font-weight: bold; */
+}

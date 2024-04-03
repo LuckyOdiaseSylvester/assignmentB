@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+}
+body{
+    background-color: rgb(222, 135, 221);
+padding-bottom: 50px;
+}
+.form{
+    /* background-color: rgb(255, 0, 157); */
+    /* height: 1000px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    height: 50px;
+    background-color: blueviolet;
+    padding-left: 5px;
+    padding-top: 15px;
+   margin-bottom: 40px;
+}
+.header a{
+    color: black;
+    font-weight: 20px;
+
+}
+.home{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    /* width: 2300px; */
+    border-radius: 10px;
+    padding: 4px;
+margin-right: 10px;
+}
+.home:hover{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    color: blueviolet;    
+    border-radius: 10px;
+    padding: 4px;
+margin-right: 10px;
+}
+.table{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    /* width: 2300px; */
+    border-radius: 10px;
+    padding: 4px;
+
+}
+.table:hover{
+    background-color:  rgb(222, 135, 221);
+    height: 40px;
+    color: blueviolet;    
+    border-radius: 10px;
+    padding: 4px;
+margin-right: 10px;
+}
+.about{
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+form{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.input1{
+height: 60px;
+width: 210px;
+border-radius: 5px;
+padding: 10px;
+box-shadow: rgba(0, 0, 255, 0.417);
+font-size: 40px;
+text-align: right;
+}
+
+
+.port{
+    text-align: center;
+    padding-top: 5px;
+    color: blueviolet;
+    font-size: 33px;
+
+}
+i{
+    color: blueviolet;  
+    font-weight: bold;
+}
+
+
+table {
+    width: 100%;
+
+}
+table, th, td {
+    /* border: 1px solid; */
+    border: none;
+  }
+  td{
+    background-color: rgb(222, 135, 221);
+    /* border-radius: 10px; */
+    text-align: center;
+
+  }
+  .button{
+    background-color: rgb(222, 135, 221);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color: blueviolet;
+    font-weight: bolder;
+    height: 40px;
+    width: 40px;
+  }
+  .equal_button{
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(222, 135, 221);
+    font-weight: bolder;
+    height: 40px;
+    width: 40px;
+  }
+
+  .button:hover{
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(234, 0, 255);
+    font-weight: bolder;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+  }
+  .equal_button:hover{
+    background-color: rgb(234, 0, 255);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color: blueviolet;
+    font-weight: bolder;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+  }
